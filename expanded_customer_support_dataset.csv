@@ -1,0 +1,11 @@
+Query,Intent,Response,Entity,Language,Channel,Customer_ID,Timestamp,Response_Time_Seconds,Issue_Resolved,Priority,Agent_ID,Sentiment
+How do I reset my password?,reset_password,"To reset your password, click on 'Forgot Password' on the login page.",password,English,Web,CUST1000,2024-01-01,45,Yes,Low,AGT200,Neutral
+What is the status of my order?,order_status,Please provide your order ID to check the status.,order_id,English,Web,CUST1001,2024-01-02,60,Yes,Medium,AGT201,Neutral
+Can I return a damaged item?,return_item,"Yes, you can return damaged items within 30 days of delivery.",item_condition,English,Email,CUST1002,2024-01-03,120,Yes,High,AGT202,Negative
+Where is my refund?,refund_status,Refunds are processed within 5-7 business days.,refund_status,English,Web,CUST1003,2024-01-04,80,Yes,High,AGT203,Negative
+How do I change my email address?,change_email,You can change your email from the account settings page.,email,English,App,CUST1004,2024-01-05,75,Yes,Medium,AGT204,Neutral
+What are your business hours?,business_hours,"Our business hours are 9 AM to 5 PM, Monday through Friday.",hours,English,Web,CUST1005,2024-01-06,30,Yes,Low,AGT205,Positive
+Do you offer international shipping?,shipping_info,"Yes, we offer international shipping to selected countries.",shipping_location,English,Email,CUST1006,2024-01-07,95,Yes,Medium,AGT206,Neutral
+How can I contact support?,contact_support,You can contact support via email or live chat on our website.,support_channel,English,Web,CUST1007,2024-01-08,50,Yes,Low,AGT207,Positive
+"My payment failed, what should I do?",payment_issue,"If your payment failed, try again or use a different method.",payment_method,English,App,CUST1008,2024-01-09,110,Yes,High,AGT208,Negative
+Can I cancel my subscription?,cancel_subscription,You can cancel your subscription from the billing section of your account.,subscription,English,Web,CUST1009,2024-01-10,70,Yes,Medium,AGT209,Neutral
